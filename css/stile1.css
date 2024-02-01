@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(fondos/fondo.png);
+}
+
+/* aca empieza el css de toda la pagina para la parte de arriba donde mostrara los logos del sena */
+/* se divide en 3 clases por caja y por imagen dejando una clase para cada una de las 3*/
+
+.imgcaja1{
+    justify-content: center;
+    position: relative;
+    max-width: 110%;
+    max-height: 110%;
+    object-fit: cover;
+}
+.imgcaja2{
+    justify-content: center;
+    position: relative;
+    max-width: 110%;
+    max-height: 110%;
+    object-fit: cover;
+}
+.imgcaja3{
+    justify-content: center;
+    position: relative;
+    max-width: 110%;
+    max-height: 110%;
+    object-fit: cover;
+}
+.caja1{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.caja2{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.caja3{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+/* aca empieza el css de los botones donde aparecen el logo de cada emprendimiento */
+
+.altura1{
+    height: 8rem;
+    background-image: url(fondos/alcamello.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+.altura2{
+    height: 8rem;
+    background-image: url(fondos/alusky.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.altura3{
+    height: 8rem;
+    background-image: url(fondos/talentic.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.altura4{
+    height: 8rem;
+    background-image: url(fondos/dafruni.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.altura5{
+    height: 8rem;
+    background-image: url(fondos/universal.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+/* aca esta el texto de bienvenida*/
+
+.caja4{
+    height: 56rem;
+    background-image: url(fondos/fondo1.png);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+/* aca esta todo el css del carrousel de imagenes de las 3ras cajas en la primera parte de la pagina*/
+
+.carrousel {
+    width: 90%;
+    max-width: 120em;
+    background-image: url(fondos/fondo2.png);
+    background-size: cover;
+    padding: 2em;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+.carrousel .grande {
+    width: 500%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease;
+    padding: 2em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+}
+.carrousel .img {
+    width: calc( 100% / 5 - 2em);
+    min-height: 20vh;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+}
+.carrousel .puntos {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrousel .punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    transition: all 0.4s ease;
+    border-radius: 2em;
+} 
+.carrousel .punto.activo {
+    background-color: rgb(255, 255, 255);
+}
+
+/* aca estan las diferentes partes de la pagina donde estan los 5 proyectos especificados */
+
+.alcamello{
+    height: 68rem;
+    background-image: url(fondos/alcamello1.png);
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.alusky{
+    height: 68rem;
+    background-image: url(fondos/alusky1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.talentic{
+    height: 68rem;
+    background-image: url(fondos/talentic1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.dafruit{
+    height: 68rem;
+    background-image: url(fondos/dafruni1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.universal{
+    height: 68rem;
+    background-image: url(fondos/universal1.png);
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.copy{
+    height: 6rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+/* aca estan los textos de cada proyecto con los botones cada uno especificado */
+
+.textalcamello{
+    text-align: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.alcamellolin {
+    align-items: center;
+    justify-content: center;
+}
+.alcamellolin:hover{
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textalusky{
+    text-align: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.aluskylin {
+    align-items: center;
+    justify-content: center;
+}
+.aluskylin:hover{
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texttalentic{
+    text-align: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.talenticlin {
+    align-items: center;
+    justify-content: center;
+}
+.talenticlin:hover{
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textdafruit{
+    text-align: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.dafruitlin {
+    align-items: center;
+    justify-content: center;
+}
+.dafruitlin:hover{
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textuniversal{
+    text-align: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.navegation-bar{
+    background-color: rgba(127, 255, 212, 0);
+}
+.nav-button{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+img {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}

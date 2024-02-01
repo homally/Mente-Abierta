@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenteAbierta</title>
+    <link rel="stylesheet" href="css/stile1.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <script defer src="js/app.js"></script>
+    <link rel="icon" href="img1/cerebro.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex-continer">
+        <!--cajas de la parte de arriba-->
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 caja1">
+                <img src="img1/cenigraf.png" width="380px" class="imgcaja1">
+            </div> 
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 caja2">
+                <img src="img1/mente.png" width="400px" class="imgcaja2">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 caja3">
+                <img src="img1/sennova.png" width="350px" class="imgcaja3">
+            </div>      
+        </div>
+        <!--cajas donde estan los proyectos-->
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 altura1">
+                <nav class="navigation-bar">
+                    <button class="nav-button" onclick="navigateToSection('alcamello')"><img src="img1/alcamellolo.png" alt="350px"></button>
+                </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 altura2">
+                <nav class="navigation-bar">
+                    <button class="nav-button" onclick="navigateToSection('alusky')"><img src="img1/aluskylo.png" width="350px"></button>
+                </nav>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 altura3">
+                <nav class="navigation-bar">
+                    <button class="nav-button" onclick="navigateToSection('talentic')"><img src="img1/talenticlo.png" width="600px"></button>
+                </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 altura4">
+                <nav class="navigation-bar">
+                    <button class="nav-button" onclick="navigateToSection('dafruit')"><img src="img1/dafruinilo.png" width="350px"></button>
+                </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 altura5">
+                <nav class="navigation-bar">
+                    <button class="nav-button" onclick="navigateToSection('universal')"><img src="img1/universallo.png" width="350px"></button>
+                </nav>
+            </div>
+        </div>
+        <!--informacion inicial donde se veran las fotos-->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 caja4">
+                <h1>A continuación veras 5 proyectos que fueron dados a conocer en el evento Mente Abierta 2023 patrocinado por SENNOVA en el cual tiene como objetivo mostrar diferentes emprendimientos de los estudiantes del SENA, acá te mostrare 5 de los que mas me gustaron dando una breve información y dejándote el link para que las conozcas. 😊</h1>
+            </div> 
+        <!--el carrousel de imagenes de los 5 proyectos-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 carrousel">
+                    <div class="grande">
+                        <img src="img1/imagen1.png" alt="Imagen 1" class="img">
+                        <img src="img1/imagen2.png" alt="Imagen 2" class="img">
+                        <img src="img1/imagen3.png" alt="Imagen 3" class="img">
+                        <img src="img1/imagen4.png" alt="Imagen 4" class="img">
+                        <img src="img1/imagen5.png" alt="Imagen 5" class="img">
+                    </div>
+            
+                    <ul class="puntos">
+                        <li class="punto activo"></li>
+                        <li class="punto"></li>
+                        <li class="punto"></li>
+                        <li class="punto"></li>
+                        <li class="punto"></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+        <!--cajas de contenido sobre los emprendimientos-->
+        <div class="row">
+            <div id="alcamello" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 alcamello">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 textalcamello">
+                    <div aling="center">
+                        <p>•	Alcamello es una plataforma que busca ayudar a los jóvenes sin experiencia a encontrar empleo y a su vez que los empleadores encuentren posibles candidatos para ser contratados bajo sus necesidades, cuentan con 3 diferentes planes de pago para los empleadores asi tiene mas visibilidad ante los jóvenes que buscan empleo.</p>
+                        <p>•	Esta echa con Wordpress también se integró un poco de HTML Y CSS para los sliders y para funcionalidad de la página.</p>
+                       </div>
+                       <a class="alcamellolin" href="https://www.alcamello.com/planes/">
+                        <img src="img1/camelloboton.png" width="300px">
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="alusky" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 alusky">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 textalusky">
+                    <div aling="center">
+                        <p>•	Alusky es una plataforma de venta de ropa con diseños personalizados para empresas o personas naturales ofrecen busos, chaquetas, camisetas, mugs, etc. Se ofrece el diseño que quiera el cliente o también ofrecen diseños predeterminados.</p>
+                        <p>•	Esta echa con html, css y java con una unión a una base de datos donde manejan los registros de la pagina. </p>
+                       </div>
+                       <a class="aluskylin" href="https://www.instagram.com/alusky_store?igsh=YmwxdG03MTR4eDFj">
+                        <img src="img1/aluskyboton.png" width="300px">
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="talentic" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 talentic">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 texttalentic">
+                    <div aling="center">
+                        <p>•	Talentic es una plataforma de información documental de proyectos formativos en contenidos digitales también incluye al sector empresarial para que puedan ver el talento de los estudiantes en contenidos digitales sea en cuanto código contenido multimedia en general en elementos gráficos.</p>
+                        <p>•	Esta construida puramente en HTML5 Sobre Bootstrap5 también se usa un servidor de almacenamiento para la carga más rápida de los proyectos como la página en sí.</p>
+                       </div>
+                       <a class="talenticlin" href="https://www.talentic.com.co">
+                        <img src="img1/talenticboton.png" width="300px">
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="dafruit" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 dafruit">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 textdafruit">
+                    <div aling="center">
+                        <p>•	Dafruni es una página de concientización sobre el desperdicio de alimentos que se tiene al día a día involucrando personajes representados con frutas dando cercanía a los espectadores y asi cumplir más efectivamente su objetivo.</p>
+                        <p>•	Esta echa en HTML con CSS y funciones de java a la vez usa enlaces con diferentes paginas para la publicación de los libros que están desarrollando.</p>
+                       </div>
+                       <a class="dafruitlin" href="https://www.defruni.com">
+                        <img src="img1/dafruniboton.png" width="300px">
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="universal" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 universal">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 textuniversal">
+                    <div aling="center ">
+                        <p>•	Universal Comics es una pagina creada para poder comprar comics de segunda mano y también funcionaba como biblioteca para poder leer cualquier comic si pagabas una membresía.</p>
+                        <p>•	Se creo en HTML y con CSS usando algo de java para la funcionalidad actualmente ya no tienen dominio de la pagina ni tienen redes sociales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 copy">
+        codigo y diseño echo por Alejandro herrera 
+    </div>
+</body>
+
+
+
+<script>
+
+    / Función para inicializar ScrollReveal solo cuando se activa la navegación/
+    function initScrollReveal() {
+        ScrollReveal().reveal('.box', {
+            duration: 1000,   // Duración de la animación en milisegundos
+            origin: 'bottom',  // Desde dónde aparecerá el elemento
+            distance: '20px',  // Distancia de desplazamiento
+            easing: 'cubic-bezier(0.5, 0, 0, 1)',  // Función de aceleración
+            interval: 200       // Intervalo entre elementos (en milisegundos)
+        });
+    }
+
+    // Función para navegar a la sección y activar ScrollReveal
+    function navigateToSection(sectionId) {
+        // Llama a la función de desplazamiento suave
+        scrollToSection(sectionId);
+
+        // Inicializa ScrollReveal después de desplazarse a la sección
+        setTimeout(initScrollReveal, 500); 
+    }
+
+    // Función para desplazamiento suave a las secciones
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+</script>
+
+</html>      
